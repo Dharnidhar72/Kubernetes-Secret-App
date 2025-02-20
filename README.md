@@ -14,4 +14,5 @@ This is a web-based application for managing Kubernetes secrets with automatic d
 1. Clone the repository:
 ```bash
 git clone [your-repository-url]
+mkdir kubernetes-secrets-app
 cd kubernetes-secrets-app
