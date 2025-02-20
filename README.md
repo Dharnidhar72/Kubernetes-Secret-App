@@ -64,11 +64,15 @@ kubernetes-secrets-app/
 2. Enter database credentials:
    - **Database Name** (will be automatically converted to lowercase)
    - **Database Password**
+     <img width="1434" alt="image" src="https://github.com/user-attachments/assets/abff5f02-a551-4518-a525-a6847071919e" />
+
 3. Click **"Create / Update Secret"**  
    The application will:
    - Create a Kubernetes secret
    - Create a deployment with the secret mounted
    - Display the deployment status
+     <img width="1003" alt="Screenshot 2025-02-19 at 11 44 56 PM" src="https://github.com/user-attachments/assets/c8d086b7-f885-4fba-91ba-c3528d026cba" />
+
 
 ## Verification Commands
 
@@ -91,6 +95,12 @@ Check pod status:
 ```bash
 kubectl get pods
 ```
+<img width="413" alt="image" src="https://github.com/user-attachments/assets/74d33070-f7d4-4574-8c13-1eb3693eebfc" />
+<img width="279" alt="image" src="https://github.com/user-attachments/assets/304f7011-f5e8-4fe4-95b1-4bfa00878403" />
+
+
+
+
 
 ## Troubleshooting
 
